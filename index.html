@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar" id="nav-bar">
+            <h2>Goût de l'enfance</h2>
+            <div class="burger" id="burger">
+                &#9776; <!-- Символ для кнопки-бургера -->
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#selection1">Home</a></li>
+                <li><a href="#selection2">About</a></li>
+                <li><a href="#selection3">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section>
+        <div class="banner" id="selection1">
+            <div class="text">
+                <div class="order-text">
+                    <p class="main-info">Immerse yourself in the atmosphere of childhood joys with our desserts</p> 
+                    <p class="other-info">a taste that is familiar from childhood!</p>
+                    <ul>
+                        <li>Healthy desserts</li>
+                        <li>Prices from 9$</li>
+                        <li>Delicious desserts like grandma's</li>
+                    </ul>
+                    <button class="order"><a href="#selection3">ORDER</a></button>
+                </div>
+            </div>
+            <img class="main-img" src="./imgs/home.png.jpeg" alt="main-img">
+        </div>
+
+        <div class="page-about" id="selection2">
+                <img class="about-img-1" src="./imgs/about1.png" alt="about-img-1">
+                <div class="info-plash">
+                    <p>Our desserts are not just delicacies, they are an entire experience. </p>
+                    <p>Each cake, pie or sofa is created with love and attention to detail to give you the most pleasant emotions.  </p>
+                    <p>We are sure: every part is filled not only with taste, but also with care.</p>
+                    <p>Whether you're looking for a treat for a party, a sweet gift for loved ones, or a cake for a special occasion, we'll create a dessert that's perfect for your occasion. </p>
+                    <button class="order-button"><a href="#selection3">ORDER</a></button>
+                </div>
+                <img class="about-img-2" src="./imgs/about2.png" alt="about-img-2">
+            </div>
+            <div class="block" id="selection3">
+                    <div class="input-plash">
+                        <div class="text-input">
+                            <h2>A taste that is familiar from childhood!</h2>
+                            <input class="input-text" id="name" name = "name" type="text" placeholder="Name">
+                            <input class="input-text" id="email" name="email" type="email" placeholder="Email">
+                        </div>
+                        <label for="checkbox">  
+                            <input id="checkbox_check" name="checkbox" type="checkbox" >
+                            I accept Privacy policy
+                        </label>
+                        <button class="input-plash-button">SUBMIT FORM</button>
+                    </div>
+                    <div class="plash-footer">
+                        <img src="./imgs/plash-footer-man.png" alt="">
+                    </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="nav-buttom">
+            <ul>
+                <li><a href="#selection1">Home</a></li>
+                <li><a href="#selection2">About</a></li>
+                <li><a href="#selection3">Order</a></li>
+            </ul>
+        </div>
+        <div class="container-social">
+            <h2>Goût de l'enfance</h2>
+            <div class="social-media">
+                <img src="./imgs/inst.png" alt="">
+                <img src="./imgs/tiktok.png" alt="">
+                <img src="./imgs/in.png" alt="">
+                <img src="./imgs/facebook.png" alt="">
+                <img src="./imgs/telegram.png" alt="">
+                <img src="./imgs/utube.png" alt="">
+            </div>
+            <button class="footer-button"><a href="#selection3">ORDER</a></button>
+        </div>
+
+        <div class="container-social-2">
+            <ul>
+                <li>© 2024 Copyright</li>
+                <li>Private policy</li>
+                <li>Terms of Use</li>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+</html>
