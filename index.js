@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (burger) {
         burger.addEventListener('click', function() {
-            navMenu.classList.toggle('active'); // Переключаем класс active
+            navMenu.classList.toggle('active'); 
             const isActive = navMenu.classList.contains('active');
-            burger.setAttribute('aria-expanded', isActive); // Обновляем атрибут aria
+            burger.setAttribute('aria-expanded', isActive); 
         });
     }
 
@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
             // Прокручиваем страницу с учетом фиксированного меню
             window.scrollTo({
-                top: targetElement.offsetTop - 100, // 100 - это высота вашего фиксированного меню
-                behavior: 'smooth' // Плавная прокрутка
+                top: targetElement.offsetTop - 100, 
+                behavior: 'smooth' 
             });
         });
     });   
